@@ -1,0 +1,19 @@
+{
+    "terminal.integrated.env.windows": {
+        "CLAUDE_CODE_ENABLE_TELEMETRY": "1",
+        "CLAUDE_CODE_ENHANCED_TELEMETRY_BETA": "1",
+        "OTEL_TRACES_EXPORTER": "otlp",
+        "OTEL_LOGS_EXPORTER": "otlp",
+        "OTEL_EXPORTER_OTLP_PROTOCOL": "http/json",
+        "OTEL_EXPORTER_OTLP_ENDPOINT": "http://127.0.0.1:54956",
+        "OTEL_METRICS_EXPORTER": "none",
+        "OTEL_LOG_USER_PROMPTS": "1",
+        "OTEL_LOG_TOOL_DETAILS": "1",
+        "OTEL_LOG_TOOL_CONTENT": "1",
+        "OTEL_LOG_RAW_API_BODIES": "1",
+        "CLAUDE_CODE_OTEL_CONTENT_MAX_LENGTH": "524288",
+        "OTEL_TRACES_EXPORT_INTERVAL": "2000",
+        "OTEL_LOGS_EXPORT_INTERVAL": "2000",
+        "OTEL_SERVICE_NAME": "claude-code"
+    }
+}

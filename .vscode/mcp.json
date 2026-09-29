@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "ai-meeting-assistant": {
+      "command": "python",
+      "args": ["mcp_server.py"],
+      "env": {
+        "GOOGLE_API_KEY": "${GOOGLE_API_KEY}",
+        "GEMINI_MODEL": "gemini-2.5-flash-lite"
+      }
+    }
+  }
+}
