@@ -1,4 +1,4 @@
-# AI Meeting Assistant — MCP Server + Client + Streamlit UI
+# AI Meeting Assistant 
 
 An MCP (Model Context Protocol) based AI Meeting Assistant that processes meeting transcripts to generate summaries and action items using Google Gemini.
 
